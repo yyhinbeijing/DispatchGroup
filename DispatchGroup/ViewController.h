@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
+@property (nonatomic,strong) UIImage *imageOne;
+@property (nonatomic,strong) UIImage *imageTwo;
+@property (nonatomic,weak) UILabel *textLabel;
 
 @end
 
